@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "GetAllRoomsById";
+}
+
+<h2>ROOMS</h2>
+
+<table class="table table-responsive table-striped table-bordered">
+    <thead>
+        <tr>
+            <th style="background-color: aliceblue; color: darkgreen">Logo</th>
+            <th style="background-color: aliceblue; color: darkgreen">Id</th>
+            <th style="background-color: aliceblue; color: darkgreen">hotelId</th>
+            <th style="background-color: aliceblue; color: darkgreen">IsBooked</th>
+            <th style="background-color: aliceblue; color: darkgreen">Price</th>
+            <th style="background-color: aliceblue; color: darkgreen">RoomNumber</th>
+            <th style="background-color: aliceblue; color: darkgreen">RoomType</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+        <tr>
+            <td width="235">@{<img src=@i.image  height="150" width="230"/>}</td>
+            <td>@i.Id</td>
+            <td>@i.hotelId</td>
+            <td>@i.IsBooked</td>
+            <td>@i.Price</td>
+            <td>@i.RoomNumber</td>
+            <td>@i.RoomType</td>
+            @using (Html
+        .BeginForm("UpdateBookingStatus", "Room", FormMethod.Post))
+            {
+                if(i.IsBooked){
+                 <td><input class="btn btn-primary" type="submit" name="Book" value="Booked" disabled /></td>
+                }
+                else
+                {
+                 <td><input class="btn btn-primary" type="hidden" name="Book" value="@i.Id"/>
+                     <input class="btn btn-primary" type="submit" name="id" value="Book"/></td>
+                }
+            }
+        </tr>
+        }
+    </tbody>
+</table>
+<link rel="stylesheet" type="text/css" href="~/Scripts/Style.css" />

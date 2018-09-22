@@ -1,0 +1,47 @@
+﻿@model  List<UserUiApi.Models.Hotel>
+    @{
+    ViewData["Title"] = "GetAllHotels";
+    }
+
+    <h2>HOTELS</h2>
+
+    <table class="table table-responsive table-striped table-bordered">
+        <thead>
+            <tr>
+                <th style="background-color: aliceblue; color: darkgreen">hotelId</th>
+                <th style="background-color: aliceblue; color: darkgreen">HotelName</th>
+                <th style="background-color: aliceblue; color: darkgreen">HotelAddress</th>
+                <th style="background-color: aliceblue; color: darkgreen">PhoneNumber</th>
+                <th style="background-color: aliceblue; color: darkgreen">NumberOfRoomsAvailable</th>
+                <th style="background-color: aliceblue; color: darkgreen">Rating</th>
+                <th style="background-color: aliceblue; color: darkgreen">IsBooked</th>
+                <th style="background-color: aliceblue; color: darkgreen">EmailAddress</th>
+                <th style="background-color: aliceblue; color: darkgreen">Amenities</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.hotelId</td>
+                <td style="width:300px;color:black;font-size:1.3em">@i.HotelName</td>
+                <td style="width:300px;">@i.HotelAddress</td>
+                <td>@i.PhoneNumber</td>
+                <td style="width:100px">@i.NumberOfRoomsAvailable</td>
+                <td>@i.Rating</td>
+                <td>@i.IsBooked</td>
+                <td>@i.EmailAddress</td>
+                <td>@i.Amenities[0],@i.Amenities[1],<br />@i.Amenities[2],@i.Amenities[3],<br />@i.Amenities[4],@i.Amenities[5]</td>
+                @using (Html
+        .BeginForm("GetAllRoomsById", "Room", FormMethod.Post))
+            {
+                <td>
+                    <input class="btn btn-primary" type="hidden" name="Book" value="@i.hotelId" />
+                    <input class="btn btn-primary" type="submit" name="id" value="Book" />
+                </td>
+            }
+            </tr>
+        }
+        </tbody>
+    </table>
+    <link rel="stylesheet" type="text/css" href="~/Scripts/Style.css" />

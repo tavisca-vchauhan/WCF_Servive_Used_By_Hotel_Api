@@ -1,0 +1,43 @@
+﻿[
+  {
+    "HotelName": "Hyatt",
+    "hotelId": 1,
+    "HotelAddress": " 88 Nagar Road, Kalyani Nagar Adjacent to Aga Khan Palace, Pune, Maharashtra 411006",
+    "EmailAddress": "pune.hyatthotels@hyatt.com",
+    "IsBooked": false,
+    "Amenities": [ "Wifi Available", "HouseKeeping", "Restaurant", "Swiming Pool", "Bar", "Laundry", "Room Service", "Car Park", "Terrace", "Continental Breakfast", "TurnDown Service" ]
+  },
+  {
+    "HotelName": "Novotel",
+    "hotelId": 2,
+    "HotelAddress": "Weikfield IT City Infopark Survey No 30/3, Ramwadi, Viman Nagar, Pune, Maharashtra 411014",
+    "EmailAddress": "h6833-re@accor.com",
+    "IsBooked": false,
+    "Amenities": [ "HouseKeeping", "Concierge", "Meeting Space", "Casino", "Car Park", "Terrace", "MiniBar", "Restaurant", "Swiming Pool", "Wifi Available", "Valet Parking", "Bar", "Laundry", "Room Service" ]
+  },
+  {
+    "HotelName": "IBIS",
+    "hotelId": 3,
+    "HotelAddress": " Survey No 32, Viman Nagar Rd, Pune, Maharashtra 411014",
+    "EmailAddress": "h6543-re@accor.com",
+    "IsBooked": false,
+    "Amenities": ["HouseKeeping", "Restaurant", "Swiming Pool", "Bar", "Laundry", "Room Service", "Car Park", "Terrace", "Continental Breakfast", "MiniBar" ]
+  },
+  {
+    "HotelName": "Radisson Blu",
+    "hotelId": 4,
+    "HotelAddress": "Nagar Bypass Road, Pandhari Nagar, Kharadi, Pune, Maharashtra 41101",
+    "EmailAddress": "punereservations@radissonhotels.com​​​",
+    "IsBooked": false,
+    "Amenities": [ "HouseKeeping", "Concierge", "Meeting Space", "Car Park", "Terrace", "Continental Breakfast", "Restaurant", "Valet Parking", "Bar", "Laundry", "Executive Suit", "Room Service", "Wifi Available" ]
+  },
+  {
+    "HotelName": "Royal Orchid",
+    "hotelId": 5,
+    "HotelAddress": "Opp Cerebrum It Park, Kalyani Nagar, Pune 411014",
+    "EmailAddress": "corphr@royalorchidhotels.com",
+    "IsBooked": false,
+    "Amenities": [ "Wifi Available", "HouseKeeping", "Restaurant", "Swiming Pool", "Valet Parking", "Laundry","Room Service","Car Park", "Terrace", "Continental Breakfast", "TurnDown Service" ]
+  }
+]
+       
