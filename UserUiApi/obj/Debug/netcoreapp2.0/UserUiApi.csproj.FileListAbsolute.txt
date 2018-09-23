@@ -1,0 +1,11 @@
+C:\Users\Vchauhan\source\repos\UserUiApi\bin\Debug\netcoreapp2.0\UserUiApi.deps.json
+C:\Users\Vchauhan\source\repos\UserUiApi\bin\Debug\netcoreapp2.0\UserUiApi.runtimeconfig.json
+C:\Users\Vchauhan\source\repos\UserUiApi\bin\Debug\netcoreapp2.0\UserUiApi.runtimeconfig.dev.json
+C:\Users\Vchauhan\source\repos\UserUiApi\bin\Debug\netcoreapp2.0\UserUiApi.dll
+C:\Users\Vchauhan\source\repos\UserUiApi\obj\Debug\netcoreapp2.0\UserUiApi.csproj.CoreCompileInputs.cache
+C:\Users\Vchauhan\source\repos\UserUiApi\obj\Debug\netcoreapp2.0\UserUiApi.AssemblyInfoInputs.cache
+C:\Users\Vchauhan\source\repos\UserUiApi\obj\Debug\netcoreapp2.0\UserUiApi.AssemblyInfo.cs
+C:\Users\Vchauhan\source\repos\UserUiApi\bin\Debug\netcoreapp2.0\UserUiApi.pdb
+C:\Users\Vchauhan\source\repos\UserUiApi\obj\Debug\netcoreapp2.0\UserUiApi.dll
+C:\Users\Vchauhan\source\repos\UserUiApi\obj\Debug\netcoreapp2.0\UserUiApi.pdb
+C:\Users\Vchauhan\source\repos\UserUiApi\obj\Debug\netcoreapp2.0\UserUiApi.csprojAssemblyReference.cache
